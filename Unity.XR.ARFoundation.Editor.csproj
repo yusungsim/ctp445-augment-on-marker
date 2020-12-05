@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{EC7B80A3-FD1B-FF53-C6CA-152F5A4D8BBB}</ProjectGuid>
+    <ProjectGuid>{8D707BEA-8AE6-50D1-C919-B585BE22CB7E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.ARFoundation.Editor</AssemblyName>
@@ -282,7 +282,7 @@
       <HintPath>C:/Users/Jin Taegyu/AR_Programming HW/package/Editor/Scripts/Internal/Analytics/Google.Protobuf.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>C:/Users/Jin Taegyu/AR_Reservation/AR_Test4/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>C:/Users/Jin Taegyu/ctp445-augment-on-marker/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -641,31 +641,31 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.ARFoundation.csproj">
-      <Project>{F9F0A2DD-F733-0434-C1A9-B381920F0F2C}</Project>
+      <Project>{F06AD08E-C351-6AFC-5A60-2151C96C498E}</Project>
       <Name>Unity.XR.ARFoundation</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
-      <Project>{25E5BD38-C8E2-6A67-9101-5000DA1AF662}</Project>
+      <Project>{B40D30A6-220A-A8FB-622C-F21CFCA4FD97}</Project>
       <Name>Unity.XR.ARSubsystems</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
-      <Project>{3B4D56F9-F98A-FDA9-CEE9-086B6F95C33B}</Project>
+      <Project>{142C209D-0C79-38BC-DCB4-DDC44BE1D413}</Project>
       <Name>UnityEngine.SpatialTracking</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{BC33701D-DFB0-F6EB-B682-A0D5DAD0FB0B}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{CB4A5DEC-8CA7-AE9C-FEA9-C267FAC90852}</Project>
+      <Project>{FDFF0037-8F4A-0190-4B5E-9E5F1101B0B1}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{485DBEBF-A881-80A8-7D98-40C6F3B0F1EA}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{B3D23FF0-94C2-3C0F-4139-84CE57434210}</Project>
+      <Project>{CB884C06-7FBD-4991-1243-1475C004A79B}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{4133E939-FC40-E97D-27A4-F5F6C2715C0A}</Project>
+      <Project>{35EBB364-F50F-2508-11F8-6D64B5C43F47}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

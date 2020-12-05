@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{CD79786A-E357-2A6A-B1A7-66F7D53446B2}</ProjectGuid>
+    <ProjectGuid>{E353B8CD-1507-289A-DA1E-F9C49E3E9F69}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Google.XR.ARCoreExtensions</AssemblyName>
@@ -646,24 +646,24 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.ARFoundation.csproj">
-      <Project>{F9F0A2DD-F733-0434-C1A9-B381920F0F2C}</Project>
+      <Project>{F06AD08E-C351-6AFC-5A60-2151C96C498E}</Project>
       <Name>Unity.XR.ARFoundation</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
-      <Project>{25E5BD38-C8E2-6A67-9101-5000DA1AF662}</Project>
+      <Project>{B40D30A6-220A-A8FB-622C-F21CFCA4FD97}</Project>
       <Name>Unity.XR.ARSubsystems</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARCore.csproj">
-      <Project>{9C172EDA-980D-288C-73D8-D03C7C83B068}</Project>
+      <Project>{63F9520B-9D1C-1757-1A70-212B194829E1}</Project>
       <Name>Unity.XR.ARCore</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{BC33701D-DFB0-F6EB-B682-A0D5DAD0FB0B}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{CB4A5DEC-8CA7-AE9C-FEA9-C267FAC90852}</Project>
+      <Project>{FDFF0037-8F4A-0190-4B5E-9E5F1101B0B1}</Project>
       <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{485DBEBF-A881-80A8-7D98-40C6F3B0F1EA}</Project>
+      <Name>UnityEditor.UI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

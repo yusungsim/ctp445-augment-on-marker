@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{25E5BD38-C8E2-6A67-9101-5000DA1AF662}</ProjectGuid>
+    <ProjectGuid>{B40D30A6-220A-A8FB-622C-F21CFCA4FD97}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.ARSubsystems</AssemblyName>
@@ -717,16 +717,16 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Subsystem.Registration.csproj">
-      <Project>{2CDB7880-1D2F-C7F7-4D1F-131513A376CE}</Project>
+      <Project>{90BD6B69-AA57-52EC-D07C-CA7C8FA1A00E}</Project>
       <Name>Unity.Subsystem.Registration</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{BC33701D-DFB0-F6EB-B682-A0D5DAD0FB0B}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{CB4A5DEC-8CA7-AE9C-FEA9-C267FAC90852}</Project>
+      <Project>{FDFF0037-8F4A-0190-4B5E-9E5F1101B0B1}</Project>
       <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{485DBEBF-A881-80A8-7D98-40C6F3B0F1EA}</Project>
+      <Name>UnityEditor.UI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

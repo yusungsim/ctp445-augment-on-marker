@@ -35,15 +35,6 @@ namespace ArucoUnity.Cameras
 
         // Properties
 
-        /// <summary>
-        /// Gets or set the id of the webcam to use.
-        /// </summary>
-        //public int WebcamId { get { return webcamId; } set { webcamId = value; } }
-
-        /// <summary>
-        /// Gets the controller of the webcam to use.
-        /// </summary>
-        //public WebcamController WebcamController { get; private set; }
 
         // MonoBehaviour methods
 
@@ -161,9 +152,9 @@ namespace ArucoUnity.Cameras
         /// <summary>
         /// Configures <see cref="ArucoCamera.Textures"/> and calls <see cref="ArucoCamera.OnStarted"/>.
         /// </summary>
-        protected virtual void WebcamController_Started(WebcamController webcamController)
-        {
-            base.OnStarted();
-        }
+        ///protected virtual void WebcamController_Started(WebcamController webcamController)
+        ///{
+        ///   base.OnStarted();
+        ///}
     }
 }

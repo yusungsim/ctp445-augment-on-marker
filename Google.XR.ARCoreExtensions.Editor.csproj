@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3364592B-6963-D993-7C39-612DB7D4CDB7}</ProjectGuid>
+    <ProjectGuid>{7F19EEAC-0406-DABD-8451-157EFB7FD455}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Google.XR.ARCoreExtensions.Editor</AssemblyName>
@@ -296,7 +296,7 @@
       <HintPath>C:/Users/Jin Taegyu/AR_Programming HW/package/Editor/Scripts/Internal/Analytics/Google.Protobuf.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>C:/Users/Jin Taegyu/AR_Reservation/AR_Test4/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>C:/Users/Jin Taegyu/ctp445-augment-on-marker/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -655,35 +655,35 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Google.XR.ARCoreExtensions.csproj">
-      <Project>{CD79786A-E357-2A6A-B1A7-66F7D53446B2}</Project>
+      <Project>{E353B8CD-1507-289A-DA1E-F9C49E3E9F69}</Project>
       <Name>Google.XR.ARCoreExtensions</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
-      <Project>{97A02B94-0062-98F2-14F6-421375F414DC}</Project>
+      <Project>{DD4A31D0-5C90-4C47-DB19-86DAAE853ED8}</Project>
       <Name>Unity.XR.Management</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Editor.csproj">
-      <Project>{194DF251-EECD-6B9F-5F4B-0D5F8526ADA4}</Project>
+      <Project>{8ABF6CC9-7038-8396-AAB2-753614ACDBBF}</Project>
       <Name>Unity.XR.Management.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARCore.csproj">
-      <Project>{9C172EDA-980D-288C-73D8-D03C7C83B068}</Project>
+      <Project>{63F9520B-9D1C-1757-1A70-212B194829E1}</Project>
       <Name>Unity.XR.ARCore</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{BC33701D-DFB0-F6EB-B682-A0D5DAD0FB0B}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{CB4A5DEC-8CA7-AE9C-FEA9-C267FAC90852}</Project>
+      <Project>{FDFF0037-8F4A-0190-4B5E-9E5F1101B0B1}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{485DBEBF-A881-80A8-7D98-40C6F3B0F1EA}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{B3D23FF0-94C2-3C0F-4139-84CE57434210}</Project>
+      <Project>{CB884C06-7FBD-4991-1243-1475C004A79B}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{4133E939-FC40-E97D-27A4-F5F6C2715C0A}</Project>
+      <Project>{35EBB364-F50F-2508-11F8-6D64B5C43F47}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

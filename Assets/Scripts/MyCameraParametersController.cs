@@ -1,6 +1,8 @@
 ﻿using System;
 using System.IO;
 using UnityEngine;
+using UnityEngine.XR.ARFoundation;
+using UnityEngine.XR.ARSubsystems;
 
 namespace ArucoUnity.Cameras.Parameters
 {
@@ -9,20 +11,8 @@ namespace ArucoUnity.Cameras.Parameters
     /// </summary>
     public class MyCameraParametersController : MonoBehaviour, IHasArucoCameraParameters
     {
-        // Editor fields
-        /*
         [SerializeField]
-        [Tooltip("Automatically load the camera parameters file at start.")]
-        private bool autoLoadFile = true;
-
-        [SerializeField]
-        [Tooltip("The folder of the camera parameters file, relative to the Application.persistentDataPath folder.")]
-        private string cameraParametersFolderPath = "ArucoUnity/CameraParameters/";
-
-        [SerializeField]
-        [Tooltip("The xml file where to load and save the camera parameters.")]
-        private string cameraParametersFilename;
-        */
+        private ARCameraManager cameraManager;
 
         // IHasCameraParameters properties
 
@@ -30,7 +20,6 @@ namespace ArucoUnity.Cameras.Parameters
         /// Gets or sets the camera parameters.
         /// </summary>
         public ArucoCameraParameters CameraParameters { get; set; }
-
         // Properties
 
 
@@ -44,10 +33,8 @@ namespace ArucoUnity.Cameras.Parameters
         /// </summary>
         protected virtual void Awake()
         {
-            
+            cameraManager.frameReceived += OnFrameRecieved;
         }
-
-        // MonoBehaviour methods
 
 
         // Methods
@@ -61,5 +48,12 @@ namespace ArucoUnity.Cameras.Parameters
             CameraParameters = new ArucoCameraParameters(cameraNumber);
         }
 
+        void OnFrameRecieved(ARCameraFrameEventArgs eventArgs)
+        {
+            if (cameraManager.TryGetIntrinsics(out var intrinsics))
+            {
+                CameraParameters = MyCameraParameters.CreateFromXRCameraIntrinsics(intrinsics);
+            }
+        }
     }
 }

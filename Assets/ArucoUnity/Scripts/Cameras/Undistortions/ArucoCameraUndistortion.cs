@@ -21,7 +21,7 @@ namespace ArucoUnity.Cameras.Undistortions
 
     [SerializeField]
     [Tooltip("The camera parameters associated with the ArucoCamera.")]
-    private ArucoCameraParametersController CameraParametersController;
+    private MyCameraParametersController CameraParametersController;
 
     // IArucoCameraUndistortion properties
 
